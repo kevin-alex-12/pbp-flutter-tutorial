@@ -218,6 +218,9 @@ class _MyFormPageState extends State<MyFormPage> {
                                         Text('Jenjang: Doktor'),
                                       Text('Umur: ' + umur.toString()),
                                       Text('Kelas: ' + kelasPBP),
+                                      Text(
+                                        (_nilaiSwitch) ? 'Practice: ON' : 'Practice: OFF'
+                                      ),
                                       TextButton(
                                         onPressed: () {
                                           Navigator.pop(context);
