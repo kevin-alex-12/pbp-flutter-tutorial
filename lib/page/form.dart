@@ -1,5 +1,5 @@
-import 'package:tesapp/main.dart';
-import 'package:tesapp/page/to_do_page.dart';
+import '/main.dart';
+import '/page/to_do_page.dart';
 import 'package:flutter/material.dart';
 
 class MyFormPage extends StatefulWidget {

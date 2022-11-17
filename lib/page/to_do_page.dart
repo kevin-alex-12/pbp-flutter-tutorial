@@ -1,9 +1,9 @@
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'package:tesapp/model/to_do.dart';
+import '/model/to_do.dart';
 import 'package:flutter/material.dart';
-import 'package:tesapp/main.dart';
-import 'package:tesapp/page/form.dart';
+import '/main.dart';
+import '/page/form.dart';
 
 class ToDoPage extends StatefulWidget {
     const ToDoPage({Key? key}) : super(key: key);

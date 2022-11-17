@@ -1,5 +1,5 @@
-import 'package:tesapp/page/form.dart';
-import 'package:tesapp/page/to_do_page.dart';
+import '/page/form.dart';
+import '/page/to_do_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
